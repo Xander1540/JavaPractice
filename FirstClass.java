@@ -1,9 +1,8 @@
-import java.util.*;
 
 public class FirstClass{
     public static void main(String[] args){
-        System.out.println("Hellow World!");
-
+        System.out.println("Hello World!");
+        System.out.println();
         int n = 4;
    
         for(int i=1; i<=n; i++){
