@@ -25,5 +25,6 @@ public class Strings {
         sb.append('g');
         sb.append('e');
         System.out.println(sb);
+        System.out.println();
     }
 }
