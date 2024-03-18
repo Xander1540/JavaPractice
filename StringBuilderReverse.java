@@ -4,6 +4,7 @@ public class StringBuilderReverse {
     
     public static void main(String[] args) {
         
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         String s;
         s = sc.nextLine();
