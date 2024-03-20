@@ -6,6 +6,7 @@ public class RecursionSumOfNno {
         if(i==n){
             
             return 0;
+        
         }
         sum+=i;
         printSum(i+1, n, sum);
