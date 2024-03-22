@@ -4,6 +4,7 @@ public class RecursionXtoPowerN {
     
     public static void main(String[] args) {
         
+        @SuppressWarnings("resource")
         Scanner sc = new  Scanner(System.in);
         int x = sc.nextInt();
         int n = sc.nextInt();

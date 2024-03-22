@@ -12,6 +12,7 @@ public class RecursionStringReverse {
         printReverse(s, i-1);
     }
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         String s = sc.nextLine();

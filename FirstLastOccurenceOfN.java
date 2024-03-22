@@ -25,12 +25,13 @@ public class FirstLastOccurenceOfN {
     
     public static void main(String[] args) {
         
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the string: ");
-        String str = sc.nextLine();
-        System.out.print("Enter the element you want to search: ");
-        char s = sc.next().charAt(0);
-        int i=0;
-        Ocuurence(str, s, i);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter the string: ");
+            String str = sc.nextLine();
+            System.out.print("Enter the element you want to search: ");
+            char s = sc.next().charAt(0);
+            int i=0;
+            Ocuurence(str, s, i);
+        }
     }
 }
