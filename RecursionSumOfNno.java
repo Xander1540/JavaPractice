@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class RecursionSumOfNno {
     
-    public static int  printSum(int i, int n, int sum) {
+    public static void  printSum(int i, int n, int sum) {
         if(i==n){
-            
-            return 0;
-        
+            sum+=i;
+            System.out.println(sum);
+            return;
         }
+
         sum+=i;
         printSum(i+1, n, sum);
-
     }
 
     public static void main(String[] args) {
@@ -20,6 +20,6 @@ public class RecursionSumOfNno {
         int n = sc.nextInt();
         int i=0;
         int sum=0;
-        System.out.println(printSum(i, n, sum));
+        printSum(i, n, sum);
     }
 }
